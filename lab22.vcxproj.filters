@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{a096543c-931d-485a-b3ac-8784bba02642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sur">
+      <UniqueIdentifier>{4b3aaf5b-e09c-4032-9053-4934b1fa7ae9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>sur</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
